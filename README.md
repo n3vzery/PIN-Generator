@@ -7,11 +7,11 @@ A secure PIN generator written in Python. Filters out common patterns, repeated 
 - Generate PINs with **4, 6, or 8 digits**
 - Filters weak patterns (1234, 0000, 8999, AABB, etc.)
 - **Strength checker** for your existing PIN (score 1–10)
-- Uses `secrets` module — cryptographically secure random generator
+- Uses `secrets` module - cryptographically secure random generator
 
 ## Requirements
 
-Python 3.8+ — no external dependencies.
+Python 3.8+ - no external dependencies.
 
 ## Installation
 
@@ -74,6 +74,6 @@ python pin_gen.py c 382917
 
 ## License
 
-GNU General Public License v3.0 — see [LICENSE](LICENSE) for details.
+GNU General Public License v3.0 - see [LICENSE](LICENSE) for details.
 
 Any derivative work **must remain open source** under the same license.
